@@ -120,6 +120,11 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
   </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
@@ -255,11 +260,11 @@
 <span id="more"></span>
 
 <h2 id="Prediction-chart"><a href="#Prediction-chart" class="headerlink" title="Prediction chart"></a>Prediction chart</h2><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart3475" style="height: 300px"></canvas>
+    <canvas id="chart5034" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart3475').getContext('2d');
+    var ctx = document.getElementById('chart5034').getContext('2d');
     var options =     {
     type: 'line',
     data: {
@@ -445,6 +450,11 @@
       </div>
   </nav>
 </div>
+  <div class="sidebar-button motion-element">
+    <a onclick="Chatra('openChat', true);"><i class="fa fa-comment"></i>
+    Adivise Forum
+  </a>
+  </div>
 
 
 
@@ -538,6 +548,18 @@
 
 
 
+  <script>
+    (function(d, w, c) {
+      w.ChatraID = '4TgJrGrD77B9SGPeD';
+      var s = d.createElement('script');
+      w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments);
+      };
+      s.async = true;
+      s.src = 'https://call.chatra.io/chatra.js';
+      if (d.head) d.head.appendChild(s);
+    })(document, window, 'Chatra');
+  </script>
 
 
 
